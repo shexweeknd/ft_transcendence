@@ -1,0 +1,42 @@
+# Ignore environment files
+.env
+
+# Ignore Docker volumes data
+**/data/
+**/file/
+
+# Ignore Vault init output
+vault-init.txt
+
+# Ignore node_modules
+**/node_modules/
+
+# Ignore build artifacts
+**/build/
+**/dist/
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.backup
